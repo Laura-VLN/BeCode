@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(100, 20, 20);
+    font-size: 5px;
+}
+
+.bloc {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+@media only screen and (min-width: 300px) {
+    body {
+        background-color: rgb(122, 179, 122);
+        font-size: 10px;
+    }
+
+    #small {
+        width: 66.66%;
+    }
+
+    #medium {
+        width: 33.33%;
+    }
+
+    #large {
+        width: 100%;
+    }
+
+    .bloc {
+        flex-flow: row wrap;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: rgb(57, 101, 143);
+        font-size: 15px;
+    }
+
+    #small {
+        width: 33.33%;
+    }
+
+    #medium {
+        width: 33.33%;
+    }
+
+    #large {
+        width: 33.33%;
+    }
+
+    .bloc {
+        flex-flow: row;
+    }
+
+}
