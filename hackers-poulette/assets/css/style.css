@@ -1,0 +1,134 @@
+@font-face {
+  font-family: "bellota";
+  src: url("../bellota/Bellota-Bold.otf"), url("../bellota/Bellota-BoldItalic.otf"), url("../bellota/Bellota-Italic.otf"), url("../bellota/Bellota-Light.otf"), url("../bellota/Bellota-LightItalic.otf"), url("../bellota/Bellota-Regular.otf"), url("../bellota/SIL Open Font License.txt");
+}
+
+body {
+  font-family: "bellota";
+  background-color: #0d8187;
+}
+
+.rects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3.15rem;
+}
+
+.white_rect, .grey_rect {
+  width: 39.06rem;
+  height: 55.31rem;
+  border-radius: 1.13rem;
+}
+
+.grey_rect {
+  position: absolute;
+  background-color: #303030;
+  z-index: 1;
+  -webkit-transform: rotate(-190deg);
+          transform: rotate(-190deg);
+}
+
+.white_rect {
+  position: absolute;
+  background-color: #FFF;
+  z-index: 2;
+}
+
+.contact_form {
+  position: absolute;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 4.38rem;
+}
+
+.logo {
+  position: absolute;
+  z-index: 4;
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+  width: 31.81rem;
+  height: 31.81rem;
+  background-image: url(../img/hackers-poulette-logo.png);
+  background-repeat: no-repeat;
+  margin-top: 32.81rem;
+  margin-left: 21.88rem;
+}
+
+fieldset {
+  text-align: center;
+  border-radius: 1.13rem;
+}
+
+.request {
+  margin-top: 1.56rem;
+}
+
+input {
+  text-align: center;
+}
+
+input[type=submit] {
+  position: absolute;
+  z-index: 6;
+  height: 1.5rem;
+  border: 0.2rem solid #0d8187;
+  border-radius: 1.13rem;
+  background-color: #FFF;
+  margin-top: 1rem;
+  height: 1.5rem;
+  width: 5rem;
+}
+
+.genderRadio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+label {
+  display: block;
+  font-size: 0.7rem;
+}
+
+textarea {
+  min-width: 30rem;
+  min-height: 15rem;
+}
+
+.errorDiv {
+  position: absolute;
+  z-index: 5;
+  width: 18rem;
+  text-align: center;
+  border: 0.2rem solid red;
+  border-radius: 1.13rem;
+  margin-left: 50rem;
+  margin-top: 1.5rem;
+}
+
+.sentDiv {
+  position: absolute;
+  z-index: 6;
+  width: 18rem;
+  text-align: center;
+  border: 0.2rem solid #0d8187;
+  border-radius: 1.13rem;
+  margin-left: 50rem;
+  margin-top: 1.5rem;
+}
+/*# sourceMappingURL=style.css.map */

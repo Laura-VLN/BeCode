@@ -1,0 +1,18 @@
+@extends('layouts.app')
+
+@section('content')
+    <h1>Créer un nouveau post</h1>
+
+    @if ($errors->any())
+        @foreach ($errors->all() as $error)
+            <div>{{ $error }}</div>
+        @endforeach
+    @endif
+
+    <form method="POST" action="{{ route('posts.store') }}">
+        @csrf
+        <input type="text" name="title">
+        <textarea name="content" cols="30" rows="10"></textarea>
+        <button type="submit">Créer</button>
+    </form>
+@endsection

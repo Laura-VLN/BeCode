@@ -1,0 +1,25 @@
+{
+  "name": "@laura-vln/npm-card",
+  "version": "1.0.0",
+  "description": "Here is my super npm card !",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laura-VLN/npm-card.git"
+  },
+  "keywords": [
+    "card",
+    "npm",
+    "npm card",
+    "npx",
+    "npx card",
+    "business card"
+  ],
+  "author": "Laura-VLN",
+  "license": "ISC",
+  "devDependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1",
+    "standard": "^12.0.1"
+  }
+}

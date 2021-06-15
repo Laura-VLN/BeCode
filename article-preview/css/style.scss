@@ -1,0 +1,33 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+$titles: hsl(217, 19%, 35%);
+
+body {
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: $titles;
+}
+
+p {
+    font-weight: 500;
+    color: hsl(214, 17%, 51%);
+}
+
+.name {
+    font-weight: 700;
+    color: $titles;
+}
+
+#arrow-share {
+    display: none;
+}
+
+.avatar {
+    border-radius: 100%;
+}

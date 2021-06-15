@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Article preview component exercise">
+    <title>Article preview</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <section>
+        <div class="all md:flex">
+            <img class="w-30 h-30 object-cover" src="images/drawers.jpg" alt="Green furniture with decoration.">
+            <div class="right-side m-7 md:flex md: flex-col md:justify-center">
+                <h2>Lorem Ipsum</h2>
+                <p class="mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos blanditiis eaque, impedit neque, voluptate ex at ab corporis consectetur officia facere iure exercitationem sed nisi doloribus qui. Amet, facilis exercitationem.</p>
+                <div class="infos flex justify-between items-center mt-10">
+                    <div class="info-date flex items-center">
+                        <img class="avatar w-12" src="images/avatar-michelle.jpg" alt="Michelle's avatar.">
+                        <div class="name-date ml-3 justify-center">
+                            <p class="name">Michelle Appleton</p>
+                            <p class="date">01 June 2021</p>
+                        </div>
+                    </div>
+                    <div class="share flex" id="arrow-share">
+                        <p>Share</p>
+                        <a href="#">
+                            <img src="images/icon-facebook.svg" alt="Facebook icon.">
+                        </a>
+                        <a href="#">
+                            <img src="images/icon-twitter.svg" alt="Twitter icon.">
+                        </a>
+                        <a href="#">
+                            <img src="images/icon-pinterest.svg" alt="Pinterest icon.">
+                        </a>
+                    </div>
+                    <div class="arrow flex w-8 h-8 bg-gray-100 rounded-full" onclick="share()">
+                        <img class="object-contain items-center m-2" src="images/icon-share.svg" alt="Share icon.">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
